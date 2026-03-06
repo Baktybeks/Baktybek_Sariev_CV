@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --page-bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --border-color: #1a1a1a;
+  --muted-color: #555555;
+  --accent-color: #2563eb;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 10pt;
+  color: var(--text-color);
+  background: var(--bg-color);
+  line-height: 1.4;
+}
+
+body.theme-dark {
+  --bg-color: #020617;
+  --page-bg-color: #020617;
+  --text-color: #e5e7eb;
+  --border-color: #4b5563;
+  --muted-color: #9ca3af;
+  --accent-color: #60a5fa;
+}
+
+.page {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background: var(--page-bg-color);
+  padding: 14mm 14mm 14mm 14mm;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 2.5px solid var(--border-color);
+  padding-bottom: 10px;
+  margin-bottom: 14px;
+}
+
+.header-photo {
+  width: 150px;
+}
+
+.header-photo img {
+  width: 100%;
+}
+
+.header-name h1 {
+  font-size: 28pt;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--text-color);
+  line-height: 1.1;
+}
+
+.header-title {
+  font-size: 13pt;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-top: 2px;
+  letter-spacing: 0.2px;
+}
+
+.header-contacts {
+  text-align: right;
+  font-size: 9pt;
+  color: var(--text-color);
+  line-height: 1.7;
+}
+
+.header-contacts a {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.theme-toggle {
+  margin-top: 6px;
+  font-size: 8pt;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+body.theme-dark .theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* SECTION LABEL */
+.section {
+  margin-bottom: 12px;
+}
+
+.section-row {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 0 16px;
+  margin-bottom: 10px;
+  align-items: start;
+}
+
+.section-label {
+  font-size: 8.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-color);
+  padding-top: 2px;
+  white-space: nowrap;
+}
+
+.section-content {
+  font-size: 9.5pt;
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+/* DIVIDER LINE */
+.divider {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 10px 0;
+}
+
+/* SKILLS TABLE */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  font-size: 9pt;
+}
+
+.skills-col {
+  padding-right: 10px;
+  line-height: 1.8;
+}
+
+/* EXPERIENCE */
+.exp-block {
+  margin-bottom: 12px;
+}
+
+.exp-header {
+  font-weight: 700;
+  font-size: 9.5pt;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.exp-project {
+  font-weight: 700;
+  font-size: 9pt;
+  margin: 6px 0 3px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.exp-list {
+  list-style: none;
+  padding: 0;
+}
+
+.exp-list li {
+  padding-left: 12px;
+  position: relative;
+  margin-bottom: 2px;
+  font-size: 9pt;
+  line-height: 1.45;
+}
+
+.exp-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--text-color);
+}
+
+.exp-list li b {
+  font-weight: 600;
+}
+
+/* EDU */
+.edu-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.edu-degree {
+  font-weight: 700;
+  font-size: 9pt;
+}
+
+.edu-year {
+  font-size: 9pt;
+  font-weight: 600;
+}
+
+.edu-uni {
+  font-size: 9pt;
+  color: var(--text-color);
+  margin-bottom: 6px;
+}
+
+/* SOFT SKILLS */
+.soft-list {
+  list-style: none;
+  padding: 0;
+}
+
+.soft-list li {
+  padding-left: 12px;
+  position: relative;
+  margin-bottom: 1px;
+  font-size: 9pt;
+}
+
+.soft-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--text-color);
+}
+
+/* CERTS & LANGS */
+.certs-langs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 20px;
+}
+
+.cert-item {
+  margin-bottom: 3px;
+  font-size: 9pt;
+}
+
+.cert-org {
+  font-size: 8.5pt;
+  color: var(--muted-color);
+}
+
+.lang-item {
+  font-size: 9pt;
+  margin-bottom: 2px;
+}
+
+.lang-item b {
+  font-weight: 600;
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .page {
+    margin: 0;
+    padding: 12mm;
+    width: 100%;
+    box-shadow: none;
+    background: #ffffff !important;
+  }
+}
+
