@@ -212,6 +212,8 @@ body.theme-dark .theme-toggle:hover {
 }
 
 .edu-year {
+  text-align: right;  
+  min-width: 75px;
   font-size: 9pt;
   font-weight: 600;
 }
@@ -266,6 +268,90 @@ body.theme-dark .theme-toggle:hover {
 
 .lang-item b {
   font-weight: 600;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .page {
+    width: 100%;
+    min-height: auto;
+    padding: 20px 16px;
+  }
+
+  .section-row {
+    grid-template-columns: 110px 1fr;
+    column-gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 16px 12px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .header-name h1 br,
+  .section-label br {
+    display: none;
+  }
+
+  .header-photo {
+    width: 120px;
+  }
+
+  .header-contacts {
+    text-align: left;
+  }
+
+  .section-row {
+    grid-template-columns: 1fr;
+    row-gap: 6px;
+  }
+
+  .section-label {
+    padding-top: 0;
+  }
+
+
+  .skills-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 4px;
+  }
+
+  .skills-col {
+    padding-right: 8px;
+  }
+
+  .certs-langs {
+    grid-template-columns: 1fr;
+    row-gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  body {
+    font-size: 9pt;
+  }
+
+  .page {
+    padding: 12px 10px;
+  }
+
+  .header-photo {
+    width: 100px;
+  }
+}
+
+@media (max-width: 380px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media print {
