@@ -1,543 +1,595 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Baktybek Sariev — Fullstack Developer</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baktybek Sariev — Fullstack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body class="theme-light">
 <div class="page">
 
-  <!-- HEADER -->
-  <div class="header">
-    <div class="header-left">
-      <div class="header-intro">
-        <div class="header-photo">
-          <img src="BIS.jpg" alt="Baktybek Sariev" width="112" height="112" loading="lazy">
+    <div class="header">
+        <div class="header-left">
+            <div class="header-photo">
+                <img src="./BIS.jpg" alt="Baktybek Sariev" width="112" height="112" loading="lazy">
+            </div>
         </div>
-        <div class="header-intro-main">
-        <div>
-        <div class="header-name" data-lang-block="ru" style="display:none;">Бактыбек Сариев</div>
-        <div class="header-name" data-lang-block="en">Baktybek<br>Sariev</div>
-        <div class="header-title" data-lang-block="ru" style="display:none;">Fullstack-разработчик · React / Next.js · Java Spring Boot</div>
-        <div class="header-title" data-lang-block="en">Fullstack Developer · React / Next.js · Java Spring Boot</div>
+        <div class="header-center">
+            <div class="header-name">
+                <h1 data-lang-block="ru" style="display:none;">Бактыбек Сариев</h1>
+                <h1 data-lang-block="en">Baktybek <br>Sariev</h1>
+                <div class="header-title" data-lang-block="ru" style="display:none;">Fullstack-разработчик · React /
+                    Java Spring Boot
+                </div>
+                <div class="header-title" data-lang-block="en">Fullstack Developer · React / Java Spring Boot</div>
+            </div>
         </div>
+        <div class="header-right">
+            <div class="header-controls">
+                <button class="theme-toggle" type="button" data-lang-block="ru" style="display:none;">Тёмная тема
+                </button>
+                <button class="theme-toggle" type="button" data-lang-block="en">Dark theme</button>
+                <div class="lang-switch">
+                    <a href="#" class="lang-active" data-lang="en">EN</a>
+                    <span class="lang-sep">|</span>
+                    <a href="#" data-lang="ru">RU</a>
+                </div>
+            </div>
+            <div class="header-meta" data-lang-block="ru" style="display:none;">
+                <span class="header-meta-line header-meta-loc">📍 Бишкек, Кыргызстан</span>
+            </div>
+            <div class="header-meta" data-lang-block="en">
+                <span class="header-meta-line header-meta-loc">📍 Bishkek, Kyrgyzstan</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label" data-lang-block="ru" style="display:none;">Тел</span>
+                <span class="contact-label" data-lang-block="en">Tel</span>
+                <a href="tel:+996707406054">+996 707 406054</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">Email</span>
+                <a href="mailto:baktybek.sariev27@gmail.com">baktybek.sariev27@gmail.com</a>
+            </div>
+            <div class="header-links">
+                <a href="https://github.com/baktybeks" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/baktybek-sariev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://t.me/SBaktybek" target="_blank" rel="noopener noreferrer">Telegram</a>
+            </div>
         </div>
-      </div>
-      <div>
-        <div class="header-location" data-lang-block="ru" style="display:none;">📍 Бишкек, Кыргызстан</div>
-        <div class="header-location" data-lang-block="en">📍 Bishkek, Kyrgyzstan</div>
-        <div class="header-availability">
-          <span class="avail-dot"></span>
-          <span data-lang-block="ru" style="display:none;">Открыт к remote · hybrid · офис</span>
-          <span data-lang-block="en">Open to remote · hybrid · on-site</span>
-        </div>
-        <div class="header-work-prefs" data-lang-block="ru" style="display:none;"><strong>Предпочтительный формат:</strong> удалённая работа (remote). Также рассматриваю hybrid и офис.</div>
-        <div class="header-work-prefs" data-lang-block="en"><strong>Preferred format:</strong> remote. Also open to hybrid and on-site.</div>
-      </div>
     </div>
-    <div class="header-right">
-      <div class="header-controls">
-        <button type="button" class="theme-toggle" data-lang-block="ru" style="display:none;">Тёмная тема</button>
-        <button type="button" class="theme-toggle" data-lang-block="en">Dark theme</button>
-        <div class="lang-switch">
-          <a href="#" data-lang="en" class="lang-active">EN</a>
-          <span style="color:var(--ink-faint);">|</span>
-          <a href="#" data-lang="ru">RU</a>
+    <div class="header-bottom">
+        <div class="header-meta" data-lang-block="ru" style="display:none;">
+            <span class="header-meta-line header-meta-avail"><span class="avail-dot" aria-hidden="true"></span>Открыт к формату: удалёнка (предпочтительно) / hybrid / офис.</span>
         </div>
-      </div>
-      <div class="contact-item">
-        <span class="contact-label" data-lang-block="ru" style="display:none;">Тел</span>
-        <span class="contact-label" data-lang-block="en">Tel</span>
-        <a href="tel:+996707406054">+996 707 406054</a>
-      </div>
-      <div class="contact-item">
-        <span class="contact-label">Email</span>
-        <a href="mailto:baktybek.sariev27@gmail.com">baktybek.sariev27@gmail.com</a>
-      </div>
-      <div class="header-links">
-        <a href="https://github.com/baktybeks" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/baktybek-sariev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://t.me/SBaktybek" target="_blank" rel="noopener noreferrer">Telegram</a>
-      </div>
+        <div class="header-meta" data-lang-block="en">
+            <span class="header-meta-line header-meta-avail"><span class="avail-dot" aria-hidden="true"></span>Open to: remote (preferred) / hybrid / on-site.</span>
+        </div>
     </div>
-  </div>
+    <!-- SUMMARY -->
+    <div class="section-row">
+        <div class="section-label" data-lang-block="ru" style="display:none;">Краткое<br>описание</div>
+        <div class="section-label" data-lang-block="en">Summary</div>
+        <div class="section-content" data-lang-block="ru" style="display:none;">
+            Кандидат технических наук и 17+ лет преподавания помогают системно разбирать сложные системы и legacy-код —
+            тот же подход применяю в коммерческой разработке. Fullstack (React/Java Spring Boot): продукты в production,
+            интеграции финансовых API. Открыт к формату: удалёнка (предпочтительно) / hybrid / офис.
+        </div>
+        <div class="section-content" data-lang-block="en">
+            A PhD in Engineering and 17+ years of teaching help me analyse complex systems and legacy code
+            systematically — the same approach I apply in commercial delivery. Fullstack (React/Java Spring Boot):
+            production products and financial API integrations. Open to: remote (preferred) / hybrid / on-site
+        </div>
+    </div>
 
-  <div class="body-wrap" data-lang-block="ru" style="display:none">
-  <div class="body">
+    <hr class="divider">
 
-    <!-- SIDEBAR RU -->
-    <aside class="sidebar">
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Навыки</div>
-        <div class="skill-group">
-          <div class="skill-group-name">Фронтенд <span class="years">4+ лет</span></div>
-          <div class="skill-tags">
-            <span class="tag primary">React</span>
-            <span class="tag primary">Next.js</span>
-            <span class="tag primary">TypeScript</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">React Native</span>
-            <span class="tag">HTML/CSS/SCSS</span>
-            <span class="tag">TailwindCSS</span>
-            <span class="tag">MUI</span>
-            <span class="tag">Ant Design</span>
-          </div>
-          <p class="skill-group-note">React, Next.js, TypeScript — 4+ года: банковский контракт, GeekStudio (2023–2025), курсы GEEKS.</p>
+    <!-- STACK -->
+    <div class="section-row">
+        <div class="section-label" data-lang-block="ru" style="display:none;">Стек</div>
+        <div class="section-label" data-lang-block="en">Stack</div>
+        <div class="section-content" data-lang-block="ru" style="display:none;">
+            <strong>Frontend:</strong> React, Next.js (SSR/SSG), TypeScript — 4+ года; банковский контракт, GeekStudio,
+            обучение.<br>
+            <strong>Backend:</strong> Java 17, Spring Boot — 1 год коммерческого бэкенда; REST, Hibernate, интеграции
+            API.<br>
+            <strong>Базы данных:</strong> PostgreSQL в продакшене; Appwrite — CRM для КГТУ (GeekStudio).
         </div>
-        <div class="skill-group">
-          <div class="skill-group-name">Управление состоянием</div>
-          <div class="skill-tags">
-            <span class="tag">Redux Toolkit</span>
-            <span class="tag">RTK Query</span>
-            <span class="tag">Zustand</span>
-            <span class="tag">TanStack Query</span>
-            <span class="tag">Jotai</span>
-          </div>
-          <p class="skill-group-note">GeekStudio: внутренние CRM, e-commerce; коммерческие проекты 2023–2025.</p>
+        <div class="section-content" data-lang-block="en">
+            <strong>Frontend:</strong> React, Next.js (SSR/SSG), TypeScript — 4+ years; bank contract, GeekStudio,
+            teaching.<br>
+            <strong>Backend:</strong> Java 17, Spring Boot — 1 year commercial backend; REST, Hibernate, API
+            integrations.<br>
+            <strong>Databases:</strong> PostgreSQL in production; Appwrite — KSTU performance CRM (GeekStudio).
         </div>
-        <div class="skill-group">
-          <div class="skill-group-name">Бэкенд <span class="years">1 год</span></div>
-          <div class="skill-tags">
-            <span class="tag primary">Java 17</span>
-            <span class="tag primary">Spring Boot</span>
-            <span class="tag">Spring MVC</span>
-            <span class="tag">Spring Data JPA</span>
-            <span class="tag">Hibernate</span>
-            <span class="tag">REST API</span>
-            <span class="tag">Express.js</span>
-          </div>
-          <p class="skill-group-note">Java/Spring Boot — коммерческий проект 2025–2026: REST, интеграции брокерских API, JPA/SQL.</p>
-        </div>
-        <div class="skill-group">
-          <div class="skill-group-name">Базы данных</div>
-          <div class="skill-tags">
-            <span class="tag primary">PostgreSQL</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">MongoDB</span>
-            <span class="tag">Appwrite</span>
-          </div>
-          <p class="skill-group-note">PostgreSQL в продакшене (Hibernate/SQL); Appwrite — CRM успеваемости для КГТУ (GeekStudio, 2024–2025).</p>
-        </div>
-        <div class="skill-group">
-          <div class="skill-group-name">DevOps / инструменты</div>
-          <div class="skill-tags">
-            <span class="tag primary">Docker</span>
-            <span class="tag">Git</span>
-            <span class="tag">GitLab</span>
-            <span class="tag">GitHub</span>
-            <span class="tag">Agile/Scrum</span>
-            <span class="tag">Figma</span>
-          </div>
-          <p class="skill-group-note">Docker, GitLab, code review; Agile/Scrum — в командах и в преподавании.</p>
-        </div>
-      </div>
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Образование</div>
-        <div class="edu-item">
-          <div class="edu-degree">Кандидат технических наук</div>
-          <div class="edu-school">Кыргызский государственный технический университет</div>
-          <div class="edu-year">2018</div>
-        </div>
-        <div class="edu-item">
-          <div class="edu-degree">Магистр техники и технологии</div>
-          <div class="edu-school">Кыргызский государственный технический университет</div>
-          <div class="edu-year">2006–2008</div>
-        </div>
-        <div class="edu-item">
-          <div class="edu-degree">Бакалавриат</div>
-          <div class="edu-school">Кыргызский государственный технический университет</div>
-          <div class="edu-year">2002–2006</div>
-        </div>
-      </div>
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Сертификаты</div>
-        <div class="cert-item-s">
-          <div class="cert-name">Frontend Developer</div>
-          <div class="cert-org">GEEKS (HTML, CSS, JS, React)</div>
-          <div class="cert-year">2022</div>
-        </div>
-      </div>
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Языки</div>
-        <div class="lang-item-s"><span class="lang-name">Кыргызский</span><span class="lang-level">родной</span></div>
-        <div class="lang-item-s"><span class="lang-name">Русский</span><span class="lang-level">свободный</span></div>
-        <div class="lang-item-s"><span class="lang-name">Английский</span><span class="lang-level">A2</span></div>
-        <div class="lang-note">Английский — A2; уровень повышаю для международных команд.</div>
-      </div>
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Гибкие навыки</div>
-        <div class="soft-item">Agile / Scrum</div>
-        <div class="soft-item">Лидерство в команде и менторство</div>
-        <div class="soft-item">Быстрое обучение</div>
-      </div>
-    </aside>
+    </div>
 
-    <!-- MAIN RU -->
-    <main class="main">
-      <div class="summary">
-        Кандидат технических наук и 17+ лет преподавания помогают системно разбирать сложные системы и legacy-код — тот же подход применяю в коммерческой разработке. Fullstack (React/Next.js + Java Spring Boot): продукты в production, интеграции финансовых API. Открыт к remote (предпочтительно), hybrid и офису.
-      </div>
-      <div class="stack-detail">
-        <div class="stack-detail-title">Стек в деталях</div>
-        <strong>Frontend:</strong> React, Next.js (SSR/SSG), TypeScript — 4+ года; банковский контракт, GeekStudio, обучение.<br>
-        <strong>Backend:</strong> Java 17, Spring Boot — 1 год коммерческого бэкенда; REST, Hibernate, интеграции API.<br>
-        <strong>Базы данных:</strong> PostgreSQL в продакшене; Appwrite — CRM для КГТУ (GeekStudio).</div>
-      <div class="section">
-        <div class="section-heading">Опыт</div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Frontend-разработчик</div>
-            <div class="exp-period">2025 — 2026</div>
-          </div>
-          <div class="exp-company">
-            Dukascopy Bank SA
-            <span class="exp-type">контракт · удалённо</span>
-          </div>
-          <div class="exp-project">Миграция на Next.js и оптимизация (финансовый сектор)</div>
-          <ul class="exp-list">
-            <li>Мигрировал <span class="metric">~15 модулей</span> из legacy на Next.js (SSR/SSG), адаптируя архитектуру под серверный рендеринг.</li>
-            <li>Перевёл классовые React-компоненты на функциональные с React Hooks.</li>
-            <li>Поэтапная модернизация legacy-кода без простоев в production; согласовывал этапы внедрения для <strong>нулевого downtime</strong>.</li>
-            <li><strong>Результат:</strong> улучшение SEO и скорости загрузки, меньший бандл.</li>
-          </ul>
-        </div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Java Backend-разработчик</div>
-            <div class="exp-period">2025 — 2026</div>
-          </div>
-          <div class="exp-company">
-            Коммерческий проект (финтех / интеграции с брокерскими API)
-            <span class="exp-type">команда из 2</span>
-          </div>
-          <ul class="exp-list">
-            <li>REST API на Java 17 + Spring Boot; интеграции с внешними сервисами (Tinkoff Invest API, Bybit).</li>
-            <li>Многошаговые финансовые расчёты и фильтрация данных через Spring Specification API.</li>
-            <li>PostgreSQL через JPA/Hibernate; написание и оптимизация SQL.</li>
-            <li>Unit и integration-тесты; Docker; code review в GitLab; синхронизация задач в команде из двух человек.</li>
-          </ul>
-        </div>
-        <div class="exp-section-label">GeekStudio — коммерческие проекты (2023 — 2025)</div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Frontend-разработчик</div>
-            <div class="exp-period">2023 — 2024</div>
-          </div>
-          <div class="exp-company">GeekStudio · внутренняя CRM · рефакторинг и авторизация</div>
-          <ul class="exp-list">
-            <li><strong>Контекст:</strong> разработка в GeekStudio для клиента — внутренняя CRM для бизнес-процессов.</li>
-            <li>Рефакторинг классовых компонентов в функциональные; модульная архитектура и современная авторизация.</li>
-            <li><strong>Результат:</strong> <span class="metric">+25% к производительности</span> по Lighthouse; масштабируемость и безопасность.</li>
-          </ul>
-        </div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Frontend-разработчик</div>
-            <div class="exp-period">2024 — 2025</div>
-          </div>
-          <div class="exp-company">GeekStudio · информационный / маркетинговый сайт</div>
-          <ul class="exp-list">
-            <li><strong>Контекст:</strong> GeekStudio — публичный сайт для продвижения услуг заказчика.</li>
-            <li>С нуля: UI/UX, адаптивная вёрстка, SEO.</li>
-            <li><strong>Результат:</strong> <span class="metric">+40% рост аудитории</span> за 3 месяца после запуска (Google Analytics).</li>
-          </ul>
-        </div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Frontend-разработчик</div>
-            <div class="exp-period">2025</div>
-          </div>
-          <div class="exp-company">GeekStudio · e-commerce · акции и промокоды</div>
-          <ul class="exp-list">
-            <li><strong>Контекст:</strong> GeekStudio — e-commerce для заказчика (розничная логика, скидки, кампании).</li>
-            <li>Платформа со скидками, промокодами и кампаниями.</li>
-            <li><strong>Стек:</strong> Next.js, FSD, TailwindCSS, TanStack Query, Zustand, Ant Design.</li>
-          </ul>
-        </div>
-        <div class="exp-section-label">КГТУ — CRM успеваемости (2024 — 2025)</div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Fullstack (Next.js + Appwrite)</div>
-            <div class="exp-period">2024 — 2025</div>
-          </div>
-          <div class="exp-company">CRM успеваемости · КГТУ</div>
-          <ul class="exp-list">
-            <li><strong>Контекст:</strong> CRM для КГТУ (четыре роли: студент, куратор, преподаватель, академический советник).</li>
-            <li>Next.js + Appwrite; проектирование сценариев под реальные административные процессы.</li>
-            <li><strong>Результат:</strong> административные задачи выполняются <span class="metric">в 2 раза быстрее</span> — подтверждено пользователями.</li>
-          </ul>
-        </div>
-        <div class="exp-section-label">Преподавание и менторство</div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Преподавание, менторство, академическое руководство</div>
-            <div class="exp-period">2008 — наст. время</div>
-          </div>
-          <ul class="exp-list">
-            <li>Менторство и разбор кода на курсах переносится в практику <strong>code review</strong> и коммуникации в коммерческих проектах.</li>
-          </ul>
-          <div class="teach-block">
-            <div class="teach-item">
-              <div class="teach-role">Преподаватель JS и React</div>
-              <div class="teach-org">GEEKS · 50+ выпускников</div>
-              <div class="teach-period">2023 — наст. время</div>
-            </div>
-            <div class="teach-item">
-              <div class="teach-role">Старший тимлид</div>
-              <div class="teach-org">GeeksPro Frontend Developer</div>
-              <div class="teach-period">2022</div>
-            </div>
-            <div class="teach-item">
-              <div class="teach-role">Преподаватель и зав. кафедрой</div>
-              <div class="teach-org">КГТУ · БД и веб-технологии</div>
-              <div class="teach-period">2008 — 2025</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-  </div>
-  </div>
+    <hr class="divider">
 
-  <div class="body-wrap" data-lang-block="en">
-  <div class="body">
+    <!-- SKILLS -->
+    <div class="section-row">
+        <div class="section-label" data-lang-block="ru" style="display:none;">Навыки</div>
+        <div class="section-label" data-lang-block="en">Skills</div>
+        <div class="section-content">
+            <div class="skills-stack" data-lang-block="ru" style="display:none;">
+                <div class="skill-group">
+                    <div class="skill-group-name">Фронтенд <span class="years">4+ лет</span></div>
+                    <div class="skill-tags">
+                        <span class="tag primary">React</span>
+                        <span class="tag primary">Next.js</span>
+                        <span class="tag primary">TypeScript</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React Native</span>
+                        <span class="tag">React capacitor</span>
+                        <span class="tag">HTML/CSS/SCSS</span>
+                        <span class="tag">TailwindCSS</span>
+                        <span class="tag">MUI</span>
+                        <span class="tag">Ant Design</span>
+                    </div>
+                    <p class="skill-group-note">React, Next.js, TypeScript — 4+ года: банковский контракт, GeekStudio
+                        (2023–2025), курсы GEEKS.</p>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-name">Управление состоянием</div>
+                    <div class="skill-tags">
+                        <span class="tag">Redux Toolkit</span>
+                        <span class="tag">RTK Query</span>
+                        <span class="tag">Zustand</span>
+                        <span class="tag">TanStack Query</span>
+                        <span class="tag">Jotai</span>
+                    </div>
+                    <p class="skill-group-note">GeekStudio: внутренние CRM, e-commerce; коммерческие проекты
+                        2023–2025.</p>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-name">Бэкенд <span class="years">1 год</span></div>
+                    <div class="skill-tags">
+                        <span class="tag primary">Java 17</span>
+                        <span class="tag primary">Spring Boot</span>
+                        <span class="tag">Spring MVC</span>
+                        <span class="tag">Spring Data JPA</span>
+                        <span class="tag">Hibernate</span>
+                        <span class="tag">REST API</span>
+                        <span class="tag">Express.js</span>
+                    </div>
+                    <p class="skill-group-note">Java/Spring Boot — коммерческий проект 2025–2026: REST, интеграции
+                        брокерских API, JPA/SQL.</p>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-name">Базы данных</div>
+                    <div class="skill-tags">
+                        <span class="tag primary">PostgreSQL</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Appwrite</span>
+                    </div>
+                    <p class="skill-group-note">PostgreSQL в продакшене (Hibernate/SQL); Appwrite — CRM успеваемости для
+                        КГТУ (GeekStudio, 2024–2025).</p>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-name">DevOps / инструменты</div>
+                    <div class="skill-tags">
+                        <span class="tag primary">Docker</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">GitLab</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Bitbucket</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">Agile/Scrum</span>
+                        <span class="tag">Figma</span>
+                    </div>
+                    Опыт: CI/CD пайплайны, code review; Agile/Scrum — командная работа и преподавание.
+                </div>
+            </div>
+            <div class="skills-stack" data-lang-block="en">
+                <div class="skill-group">
+                    <div class="skill-group-name">Frontend <span class="years">4+ yrs</span></div>
+                    <div class="skill-tags">
+                        <span class="tag primary">React</span>
+                        <span class="tag primary">Next.js</span>
+                        <span class="tag primary">TypeScript</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React Native</span>
+                        <span class="tag">React capacitor</span>
+                        <span class="tag">HTML/CSS/SCSS</span>
+                        <span class="tag">TailwindCSS</span>
+                        <span class="tag">MUI</span>
+                        <span class="tag">Ant Design</span>
+                    </div>
+                    <p class="skill-group-note">React, Next.js, TypeScript — 4+ yrs: bank contract, GeekStudio
+                        (2023–2025), GEEKS courses.</p>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-name">State management</div>
+                    <div class="skill-tags">
+                        <span class="tag">Redux Toolkit</span>
+                        <span class="tag">RTK Query</span>
+                        <span class="tag">Zustand</span>
+                        <span class="tag">TanStack Query</span>
+                        <span class="tag">Jotai</span>
+                    </div>
+                    <p class="skill-group-note">GeekStudio: internal CRMs, e-commerce; commercial projects
+                        2023–2025.</p>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-name">Backend <span class="years">1 yr</span></div>
+                    <div class="skill-tags">
+                        <span class="tag primary">Java 17</span>
+                        <span class="tag primary">Spring Boot</span>
+                        <span class="tag">Spring MVC</span>
+                        <span class="tag">Spring Data JPA</span>
+                        <span class="tag">Hibernate</span>
+                        <span class="tag">REST API</span>
+                        <span class="tag">Express.js</span>
+                    </div>
+                    <p class="skill-group-note">Java/Spring Boot — commercial project 2025–2026: REST, broker API
+                        integrations, JPA/SQL.</p>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-name">Databases</div>
+                    <div class="skill-tags">
+                        <span class="tag primary">PostgreSQL</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">Appwrite</span>
+                    </div>
+                    <p class="skill-group-note">PostgreSQL in production (Hibernate/SQL); Appwrite — KSTU performance
+                        CRM (GeekStudio, 2024–2025).</p>
+                </div>
+                <div class="skill-group">
+                    <div class="skill-group-name">DevOps / tools</div>
+                    <div class="skill-tags">
+                        <span class="tag primary">Docker</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">GitLab</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Bitbucket</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">Agile/Scrum</span>
+                        <span class="tag">Figma</span>
+                    </div>
+                    <p class="skill-group-note">
+                        CI/CD pipelines, code review; Agile/Scrum — в командах и преподавании.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- SIDEBAR EN -->
-    <aside class="sidebar">
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Skills</div>
-        <div class="skill-group">
-          <div class="skill-group-name">Frontend <span class="years">4+ yrs</span></div>
-          <div class="skill-tags">
-            <span class="tag primary">React</span>
-            <span class="tag primary">Next.js</span>
-            <span class="tag primary">TypeScript</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">React Native</span>
-            <span class="tag">HTML/CSS/SCSS</span>
-            <span class="tag">TailwindCSS</span>
-            <span class="tag">MUI</span>
-            <span class="tag">Ant Design</span>
-          </div>
-          <p class="skill-group-note">React, Next.js, TypeScript — 4+ yrs: bank contract, GeekStudio (2023–2025), GEEKS courses.</p>
-        </div>
-        <div class="skill-group">
-          <div class="skill-group-name">State Management</div>
-          <div class="skill-tags">
-            <span class="tag">Redux Toolkit</span>
-            <span class="tag">RTK Query</span>
-            <span class="tag">Zustand</span>
-            <span class="tag">TanStack Query</span>
-            <span class="tag">Jotai</span>
-          </div>
-          <p class="skill-group-note">GeekStudio: internal CRMs, e-commerce; commercial projects 2023–2025.</p>
-        </div>
-        <div class="skill-group">
-          <div class="skill-group-name">Backend <span class="years">1 yr</span></div>
-          <div class="skill-tags">
-            <span class="tag primary">Java 17-21</span>
-            <span class="tag primary">Spring Boot</span>
-            <span class="tag">Spring MVC</span>
-            <span class="tag">Spring Data JPA</span>
-            <span class="tag">Hibernate</span>
-            <span class="tag">REST API</span>
-            <span class="tag">Express.js</span>
-          </div>
-          <p class="skill-group-note">Java/Spring Boot — commercial project 2025–2026: REST, broker API integrations, JPA/SQL.</p>
-        </div>
-        <div class="skill-group">
-          <div class="skill-group-name">Databases</div>
-          <div class="skill-tags">
-            <span class="tag primary">PostgreSQL</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">MongoDB</span>
-            <span class="tag">Appwrite</span>
-          </div>
-          <p class="skill-group-note">PostgreSQL in production (Hibernate/SQL); Appwrite — KSTU performance CRM (GeekStudio, 2024–2025).</p>
-        </div>
-        <div class="skill-group">
-          <div class="skill-group-name">DevOps / Tools</div>
-          <div class="skill-tags">
-            <span class="tag primary">Docker</span>
-            <span class="tag">Git</span>
-            <span class="tag">GitLab</span>
-            <span class="tag">GitHub</span>
-            <span class="tag">Agile/Scrum</span>
-            <span class="tag">Figma</span>
-          </div>
-          <p class="skill-group-note">Docker, GitLab, code review; Agile/Scrum in teams and in teaching.</p>
-        </div>
-      </div>
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Education</div>
-        <div class="edu-item">
-          <div class="edu-degree">PhD in Engineering</div>
-          <div class="edu-school">Kyrgyz State Technical University</div>
-          <div class="edu-year">2018</div>
-        </div>
-        <div class="edu-item">
-          <div class="edu-degree">Master of Engineering</div>
-          <div class="edu-school">Kyrgyz State Technical University</div>
-          <div class="edu-year">2006–2008</div>
-        </div>
-        <div class="edu-item">
-          <div class="edu-degree">Bachelor's Degree</div>
-          <div class="edu-school">Kyrgyz State Technical University</div>
-          <div class="edu-year">2002–2006</div>
-        </div>
-      </div>
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Certificates</div>
-        <div class="cert-item-s">
-          <div class="cert-name">Frontend Developer</div>
-          <div class="cert-org">GEEKS (HTML, CSS, JS, React)</div>
-          <div class="cert-year">2022</div>
-        </div>
-      </div>
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Languages</div>
-        <div class="lang-item-s"><span class="lang-name">Kyrgyz</span><span class="lang-level">Native</span></div>
-        <div class="lang-item-s"><span class="lang-name">Russian</span><span class="lang-level">Fluent</span></div>
-        <div class="lang-item-s"><span class="lang-name">English</span><span class="lang-level">A2</span></div>
-        <div class="lang-note">English — A2; improving for international teams.</div>
-      </div>
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Soft Skills</div>
-        <div class="soft-item">Agile / Scrum</div>
-        <div class="soft-item">Team leadership &amp; mentoring</div>
-        <div class="soft-item">Fast learner</div>
-      </div>
-    </aside>
+    <hr class="divider">
 
-    <!-- MAIN EN -->
-    <main class="main">
-      <div class="summary">
-        A PhD in Engineering and 17+ years of teaching help me analyse complex systems and legacy code systematically — the same approach I apply in commercial delivery. Fullstack (React/Next.js + Java Spring Boot): production products and financial API integrations. Open to remote (preferred), hybrid, and on-site.
-      </div>
-      <div class="stack-detail">
-        <div class="stack-detail-title">Stack in detail</div>
-        <strong>Frontend:</strong> React, Next.js (SSR/SSG), TypeScript — 4+ years; bank contract, GeekStudio, teaching.<br>
-        <strong>Backend:</strong> Java 17, Spring Boot — 1 year commercial backend; REST, Hibernate, API integrations.<br>
-        <strong>Databases:</strong> PostgreSQL in production; Appwrite — KSTU performance CRM (GeekStudio).</div>
-      <div class="section">
-        <div class="section-heading">Experience</div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Frontend Developer</div>
-            <div class="exp-period">2025 — 2026</div>
-          </div>
-          <div class="exp-company">
-            Dukascopy Bank SA
-            <span class="exp-type">contract · remote</span>
-          </div>
-          <div class="exp-project">Next.js migration &amp; optimisation (financial sector)</div>
-          <ul class="exp-list">
-            <li>Migrated <span class="metric">~15 modules</span> from legacy codebase to Next.js (SSR/SSG), adapting architecture for server-side rendering.</li>
-            <li>Converted class-based React components to functional components with React Hooks.</li>
-            <li>Step-by-step modernisation of legacy code without breaking production stability; aligned rollout steps for <strong>zero downtime</strong>.</li>
-            <li><strong>Result:</strong> improved SEO and load speed, reduced bundle size.</li>
-          </ul>
-        </div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Java Backend Developer</div>
-            <div class="exp-period">2025 — 2026</div>
-          </div>
-          <div class="exp-company">
-            Commercial project (fintech / broker API integrations)
-            <span class="exp-type">team of 2</span>
-          </div>
-          <ul class="exp-list">
-            <li>Built and maintained REST APIs with Java 17 + Spring Boot; integrated external services (Tinkoff Invest API, Bybit).</li>
-            <li>Implemented multi-step financial calculations and data filtering via Spring Specification API.</li>
-            <li>Worked with PostgreSQL via JPA/Hibernate; wrote and optimised SQL queries.</li>
-            <li>Unit and integration tests; Docker; code review in GitLab; task sync in a two-person team.</li>
-          </ul>
-        </div>
-        <div class="exp-section-label">GeekStudio — commercial projects (2023 — 2025)</div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Frontend Developer</div>
-            <div class="exp-period">2023 — 2024</div>
-          </div>
-          <div class="exp-company">GeekStudio · internal CRM · refactoring &amp; authentication</div>
-          <ul class="exp-list">
-            <li><strong>Context:</strong> built at GeekStudio for a client — internal CRM for business processes.</li>
-            <li>Refactored class components to functional with React Hooks; modular architecture and modern auth.</li>
-            <li><strong>Result:</strong> <span class="metric">+25% performance</span> by Lighthouse metrics; better scalability and security.</li>
-          </ul>
-        </div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Frontend Developer</div>
-            <div class="exp-period">2024 — 2025</div>
-          </div>
-          <div class="exp-company">GeekStudio · informational / marketing website</div>
-          <ul class="exp-list">
-            <li><strong>Context:</strong> GeekStudio — public site to promote the client’s services.</li>
-            <li>Built from scratch: UI/UX design, fully responsive layout, SEO optimisation.</li>
-            <li><strong>Result:</strong> <span class="metric">+40% audience growth</span> within 3 months post-launch (Google Analytics).</li>
-          </ul>
-        </div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Frontend Developer</div>
-            <div class="exp-period">2025</div>
-          </div>
-          <div class="exp-company">GeekStudio · e-commerce · promotions &amp; discounts</div>
-          <ul class="exp-list">
-            <li><strong>Context:</strong> GeekStudio — e-commerce for a client (retail pricing, discounts, campaigns).</li>
-            <li>Full-featured platform with discounts, promo codes and campaigns.</li>
-            <li><strong>Stack:</strong> Next.js, FSD, TailwindCSS, TanStack Query, Zustand, Ant Design.</li>
-          </ul>
-        </div>
-        <div class="exp-section-label">KSTU — student performance CRM (2024 — 2025)</div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Fullstack (Next.js + Appwrite)</div>
-            <div class="exp-period">2024 — 2025</div>
-          </div>
-          <div class="exp-company">Student performance CRM · KSTU</div>
-          <ul class="exp-list">
-            <li><strong>Context:</strong> CRM for KSTU (Kyrgyz State Technical University); four roles: Student, Curator, Teacher, Academic Advisor.</li>
-            <li>Next.js + Appwrite; workflows aligned with real administrative processes.</li>
-            <li><strong>Result:</strong> administrative tasks completed <span class="metric">2× faster</span> — confirmed by users.</li>
-          </ul>
-        </div>
-        <div class="exp-section-label">Teaching &amp; mentoring</div>
-        <div class="exp-block">
-          <div class="exp-top">
-            <div class="exp-role">Teaching, mentoring &amp; academic leadership</div>
-            <div class="exp-period">2008 — present</div>
-          </div>
-          <ul class="exp-list">
-            <li>Mentoring and code walkthroughs in courses carry over to <strong>code review</strong> practice and communication in commercial work.</li>
-          </ul>
-          <div class="teach-block">
-            <div class="teach-item">
-              <div class="teach-role">JS &amp; React Instructor</div>
-              <div class="teach-org">GEEKS · trained 50+ graduates</div>
-              <div class="teach-period">2023 — present</div>
+    <!-- EXPERIENCE -->
+    <div class="section-row">
+        <div class="section-label" data-lang-block="ru" style="display:none;">Опыт</div>
+        <div class="section-label" data-lang-block="en">Experience</div>
+        <div class="section-content">
+
+            <div data-lang-block="ru" style="display:none;">
+
+                <div class="exp-block">
+                    <div class="exp-header">Frontend-разработчик | Dukascopy Bank SA | 2025 — 2026</div>
+                    <div class="exp-type-note">контракт · удалённо</div>
+                    <div class="exp-type-note">Миграция на Next.js и оптимизация (финансовый сектор)</div>
+                    <ul class="exp-list">
+                        <li>Мигрировал <span class="metric">~15 модулей</span> из legacy на Next.js (SSR/SSG), адаптируя
+                            архитектуру под серверный рендеринг.
+                        </li>
+                        <li>Перевёл классовые React-компоненты на функциональные с React Hooks.</li>
+                        <li>Поэтапная модернизация legacy-кода без простоев в production; согласовывал этапы внедрения
+                            для <strong>нулевого downtime</strong>.
+                        </li>
+                        <li><strong>Результат:</strong> улучшение SEO и скорости загрузки, меньший бандл.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Java Backend-разработчик | Коммерческий проект (финтех / брокерские API) |
+                        2025 — 2026
+                    </div>
+                    <div class="exp-type-note">команда из 3</div>
+                    <ul class="exp-list">
+                        <li>REST API на Java 17 + Spring Boot; интеграции с внешними сервисами (Tinkoff Invest API,
+                            Bybit).
+                        </li>
+                        <li>Многошаговые финансовые расчёты и фильтрация данных через Spring Specification API.</li>
+                        <li>PostgreSQL через JPA/Hibernate; написание и оптимизация SQL.</li>
+                        <li>Unit и integration-тесты; Docker; code review в GitLab; синхронизация задач в команде из
+                            двух человек.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="exp-section-label">GeekStudio — коммерческие проекты (2023 — 2025)</div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Frontend-разработчик | GeekStudio | 2023 — 2024</div>
+                    <div class="exp-project">Внутренняя CRM · рефакторинг и авторизация</div>
+                    <ul class="exp-list">
+                        <li><strong>Контекст:</strong> разработка в GeekStudio для клиента — внутренняя CRM для
+                            бизнес-процессов.
+                        </li>
+                        <li>Рефакторинг классовых компонентов в функциональные; модульная архитектура и современная
+                            авторизация.
+                        </li>
+                        <li><strong>Результат:</strong> <span class="metric">+25% к производительности</span> по
+                            Lighthouse; масштабируемость и безопасность.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Frontend-разработчик | GeekStudio | 2024 — 2025</div>
+                    <div class="exp-project">Информационный / маркетинговый сайт</div>
+                    <ul class="exp-list">
+                        <li><strong>Контекст:</strong> GeekStudio — публичный сайт для продвижения услуг заказчика.</li>
+                        <li>С нуля: UI/UX, адаптивная вёрстка, SEO.</li>
+                        <li><strong>Результат:</strong> <span class="metric">+40% рост аудитории</span> за 3 месяца
+                            после запуска (Google Analytics).
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Frontend-разработчик | GeekStudio | 2025</div>
+                    <div class="exp-project">E-commerce · акции и промокоды</div>
+                    <ul class="exp-list">
+                        <li><strong>Контекст:</strong> GeekStudio — e-commerce для заказчика (розничная логика, скидки,
+                            кампании).
+                        </li>
+                        <li>Платформа со скидками, промокодами и кампаниями.</li>
+                        <li><strong>Стек:</strong> Next.js, FSD, TailwindCSS, TanStack Query, Zustand, Ant Design.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-section-label">КГТУ — CRM успеваемости (2024 — 2025)</div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Fullstack (Next.js + Appwrite) | CRM успеваемости · КГТУ | 2024 — 2025</div>
+                    <ul class="exp-list">
+                        <li><strong>Контекст:</strong> CRM для КГТУ (четыре роли: студент, куратор, преподаватель,
+                            академический советник).
+                        </li>
+                        <li>Next.js + Appwrite; проектирование сценариев под реальные административные процессы.</li>
+                        <li><strong>Результат:</strong> административные задачи выполняются <span class="metric">в 2 раза быстрее</span>
+                            — подтверждено пользователями.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="exp-section-label">Преподавание и менторство</div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Преподавание, менторство, академическое руководство | 2008 — наст. время
+                    </div>
+                    <ul class="exp-list">
+                        <li>Менторство и разбор кода на курсах переносится в практику <strong>code review</strong> и
+                            коммуникации в коммерческих проектах.
+                        </li>
+                    </ul>
+                    <div class="exp-teach-line">Преподаватель JS и React · GEEKS · 50+ выпускников · 2023 — наст.
+                        время
+                    </div>
+                    <div class="exp-teach-line">Старший тимлид · GeeksPro Frontend Developer · 2022</div>
+                    <div class="exp-teach-line">Преподаватель и зав. кафедрой · КГТУ · БД и веб-технологии · 2008 —
+                        2025
+                    </div>
+                </div>
             </div>
-            <div class="teach-item">
-              <div class="teach-role">Senior Team Lead</div>
-              <div class="teach-org">GeeksPro Frontend Developer</div>
-              <div class="teach-period">2022</div>
+
+            <div data-lang-block="en">
+
+                <div class="exp-block">
+                    <div class="exp-header">Frontend Developer | Dukascopy Bank SA | 2025 — 2026</div>
+                    <div class="exp-type-note">contract · remote</div>
+                    <div class="exp-project">Next.js migration &amp; optimisation (financial sector)</div>
+                    <ul class="exp-list">
+                        <li>Migrated <span class="metric">~15 modules</span> from legacy codebase to Next.js (SSR/SSG),
+                            adapting architecture for server-side rendering.
+                        </li>
+                        <li>Converted class-based React components to functional components with React Hooks.</li>
+                        <li>Step-by-step modernisation of legacy code without breaking production stability; aligned
+                            rollout steps for <strong>zero downtime</strong>.
+                        </li>
+                        <li><strong>Result:</strong> improved SEO and load speed, reduced bundle size.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Java Backend Developer | Commercial project (fintech / broker API
+                        integrations) | 2025 — 2026
+                    </div>
+                    <div class="exp-type-note">team of 3</div>
+                    <ul class="exp-list">
+                        <li>Built and maintained REST APIs with Java 17 + Spring Boot; integrated external services
+                            (Tinkoff Invest API, Bybit).
+                        </li>
+                        <li>Implemented multi-step financial calculations and data filtering via Spring Specification
+                            API.
+                        </li>
+                        <li>Worked with PostgreSQL via JPA/Hibernate; wrote and optimised SQL queries.</li>
+                        <li>Unit and integration tests; Docker; code review in GitLab; task sync in a two-person team.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="exp-section-label">GeekStudio — commercial projects (2023 — 2025)</div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Frontend Developer | GeekStudio | 2023 — 2024</div>
+                    <div class="exp-project">Internal CRM · refactoring &amp; authentication</div>
+                    <ul class="exp-list">
+                        <li><strong>Context:</strong> built at GeekStudio for a client — internal CRM for business
+                            processes.
+                        </li>
+                        <li>Refactored class components to functional with React Hooks; modular architecture and modern
+                            auth.
+                        </li>
+                        <li><strong>Result:</strong> <span class="metric">+25% performance</span> by Lighthouse metrics;
+                            better scalability and security.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Frontend Developer | GeekStudio | 2024 — 2025</div>
+                    <div class="exp-project">Informational / marketing website</div>
+                    <ul class="exp-list">
+                        <li><strong>Context:</strong> GeekStudio — public site to promote the client’s services.</li>
+                        <li>Built from scratch: UI/UX design, fully responsive layout, SEO optimisation.</li>
+                        <li><strong>Result:</strong> <span class="metric">+40% audience growth</span> within 3 months
+                            post-launch (Google Analytics).
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Frontend Developer | GeekStudio | 2025</div>
+                    <div class="exp-project">E-commerce · promotions &amp; discounts</div>
+                    <ul class="exp-list">
+                        <li><strong>Context:</strong> GeekStudio — e-commerce for a client (retail pricing, discounts,
+                            campaigns).
+                        </li>
+                        <li>Full-featured platform with discounts, promo codes and campaigns.</li>
+                        <li><strong>Stack:</strong> Next.js, FSD, TailwindCSS, TanStack Query, Zustand, Ant Design.</li>
+                    </ul>
+                </div>
+
+                <div class="exp-section-label">KSTU — student performance CRM (2024 — 2025)</div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Fullstack (Next.js + Appwrite) | Student performance CRM · KSTU | 2024 —
+                        2025
+                    </div>
+                    <ul class="exp-list">
+                        <li><strong>Context:</strong> CRM for KSTU (Kyrgyz State Technical University); four roles:
+                            Student, Curator, Teacher, Academic Advisor.
+                        </li>
+                        <li>Next.js + Appwrite; workflows aligned with real administrative processes.</li>
+                        <li><strong>Result:</strong> administrative tasks completed <span
+                                class="metric">2× faster</span> — confirmed by users.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="exp-section-label">Teaching &amp; mentoring</div>
+
+                <div class="exp-block">
+                    <div class="exp-header">Teaching, mentoring &amp; academic leadership | 2008 — present</div>
+                    <ul class="exp-list">
+                        <li>Mentoring and code walkthroughs in courses carry over to <strong>code review</strong>
+                            practice and communication in commercial work.
+                        </li>
+                    </ul>
+                    <div class="exp-teach-line">JS &amp; React Instructor · GEEKS · trained 50+ graduates · 2023 —
+                        present
+                    </div>
+                    <div class="exp-teach-line">Senior Team Lead · GeeksPro Frontend Developer · 2022</div>
+                    <div class="exp-teach-line">Lecturer &amp; Head of Dept. · KSTU · Databases &amp; Web Tech · 2008 —
+                        2025
+                    </div>
+                </div>
             </div>
-            <div class="teach-item">
-              <div class="teach-role">Lecturer &amp; Head of Dept.</div>
-              <div class="teach-org">KSTU · Databases &amp; Web Tech</div>
-              <div class="teach-period">2008 — 2025</div>
-            </div>
-          </div>
         </div>
-      </div>
-    </main>
-  </div>
-  </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- EDUCATION -->
+    <div class="section-row">
+        <div class="section-label" data-lang-block="ru" style="display:none;">Образование</div>
+        <div class="section-label" data-lang-block="en">Education</div>
+        <div class="section-content">
+
+            <div data-lang-block="ru" style="display:none;">
+                <div class="edu-row">
+                    <div class="edu-degree">Кыргызский государственный технический университет</div>
+                    <div class="edu-year">2018</div>
+                </div>
+                <div class="edu-uni">Кандидат технических наук</div>
+                <div class="edu-row">
+                    <div class="edu-degree">Кыргызский государственный технический университет</div>
+                    <div class="edu-year">2006–2008</div>
+                </div>
+                <div class="edu-uni">Магистр техники и технологии</div>
+                <div class="edu-row">
+                    <div class="edu-degree">Кыргызский государственный технический университет</div>
+                    <div class="edu-year">2002–2006</div>
+                </div>
+                <div class="edu-uni">Бакалавриат</div>
+            </div>
+
+            <div data-lang-block="en">
+                <div class="edu-row">
+                    <div class="edu-degree">Kyrgyz State Technical University</div>
+                    <div class="edu-year">2018</div>
+                </div>
+                <div class="edu-uni">PhD in Engineering</div>
+                <div class="edu-row">
+                    <div class="edu-degree">Kyrgyz State Technical University</div>
+                    <div class="edu-year">2006–2008</div>
+                </div>
+                <div class="edu-uni">Master of Engineering</div>
+                <div class="edu-row">
+                    <div class="edu-degree">Kyrgyz State Technical University</div>
+                    <div class="edu-year">2002–2006</div>
+                </div>
+                <div class="edu-uni">Bachelor's Degree</div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- SOFT SKILLS -->
+    <div class="section-row">
+        <div class="section-label" data-lang-block="ru" style="display:none;">Гибкие навыки</div>
+        <div class="section-label" data-lang-block="en">Soft Skills</div>
+        <div class="section-content">
+            <ul class="soft-list" data-lang-block="ru" style="display:none;">
+                <li>Agile / Scrum</li>
+                <li>Лидерство в команде и менторство</li>
+                <li>Быстрое обучение</li>
+            </ul>
+            <ul class="soft-list" data-lang-block="en">
+                <li>Agile / Scrum</li>
+                <li>Team leadership &amp; mentoring</li>
+                <li>Fast learner</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- CERTIFICATES + LANGUAGES -->
+    <div class="section-row">
+        <div class="section-label" data-lang-block="ru" style="display:none;">Сертификаты</div>
+        <div class="section-label" data-lang-block="en">Certificates</div>
+        <div class="section-content">
+            <div class="certs-langs">
+                <div>
+                    <div class="cert-item" data-lang-block="ru" style="display:none;"><strong>Frontend
+                        Developer</strong>, GEEKS (HTML, CSS, JavaScript, React) | 2022
+                    </div>
+                    <div class="cert-item" data-lang-block="en"><strong>Frontend Developer</strong>, GEEKS (HTML, CSS,
+                        JavaScript, React) | 2022
+                    </div>
+                </div>
+                <div>
+                    <div class="lang-heading" data-lang-block="ru" style="display:none;">Языки</div>
+                    <div class="lang-heading" data-lang-block="en">Languages</div>
+                    <div class="lang-item" data-lang-block="ru" style="display:none;"><b>Кыргызский:</b> родной</div>
+                    <div class="lang-item" data-lang-block="ru" style="display:none;"><b>Русский:</b> свободный</div>
+                    <div class="lang-item" data-lang-block="ru" style="display:none;"><b>Английский:</b> A2 <span
+                            class="lang-note">уровень повышаю для международных команд.</span></div>
+                    <div class="lang-item" data-lang-block="en"><b>Kyrgyz:</b> Native</div>
+                    <div class="lang-item" data-lang-block="en"><b>Russian:</b> Fluent</div>
+                    <div class="lang-item" data-lang-block="en"><b>English:</b> A2 <span class="lang-note">improving for international teams.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
