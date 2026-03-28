@@ -20,7 +20,7 @@ body {
   font-size: 10pt;
   color: var(--text-color);
   background: var(--bg-color);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 body.theme-dark {
@@ -46,12 +46,9 @@ body.theme-dark {
   grid-template-columns: minmax(0, 112px) minmax(0, 1fr) minmax(0, 240px);
   gap: 14px 18px;
   align-items: start;
-}
-
-.header-bottom {
-    padding-bottom: 12px;
-    margin-bottom: 14px;
-    border-bottom: 2.5px solid var(--border-color);
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .header-left {
@@ -84,14 +81,14 @@ body.theme-dark {
   font-weight: 700;
   letter-spacing: -0.5px;
   color: var(--text-color);
-  line-height: 1.1;
+  line-height: 1.5;
 }
 
 .header-title {
   font-size: 9.5pt;
   font-weight: 600;
-  margin-top: 8px;
-  line-height: 1.35;
+  margin-top: 12px;
+  line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
@@ -101,6 +98,7 @@ body.theme-dark {
   line-height: 1.5;
   color: var(--muted-color);
   max-width: 100%;
+  margin-bottom: 5px;
 }
 
 .header-meta .header-meta-line {
@@ -135,7 +133,7 @@ body.theme-dark {
   text-align: right;
   font-size: 9pt;
   color: var(--text-color);
-  line-height: 1.65;
+  line-height: 1.5;
   min-width: 0;
 }
 
@@ -149,7 +147,7 @@ body.theme-dark {
 }
 
 .contact-item {
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 .contact-label {
@@ -164,7 +162,9 @@ body.theme-dark {
 
 .header-right .contact-item a {
   color: var(--accent-color);
-  text-decoration: underline;
+  padding-bottom: 1px;
+  border-bottom: 1px solid var(--accent-color);
+  text-decoration: none;
 }
 
 .lang-sep {
@@ -183,18 +183,16 @@ body.theme-dark {
 
 .header-links a {
   display: inline-block;
-  padding: 3px 10px;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
   font-size: 8pt;
   font-weight: 500;
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--accent-color);
   background: transparent;
+  padding-bottom: 1px;
+  border-bottom: 1px solid var(--accent-color);
 }
 
 .header-links a:hover {
-  border-color: var(--accent-color);
   color: var(--accent-color);
 }
 
@@ -276,10 +274,14 @@ body.theme-dark .theme-toggle:hover {
 }
 
 .skill-group-name {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 9pt;
   margin-bottom: 6px;
   color: var(--text-color);
+}
+
+.skill-group + .skill-group {
+  margin-top: 8px;
 }
 
 .skill-group-name .years {
@@ -297,13 +299,12 @@ body.theme-dark .theme-toggle:hover {
 
 .tag {
   display: inline-block;
-  padding: 2px 8px;
-  border: 1px solid var(--border-color);
-  border-radius: 3px;
   font-size: 8.5pt;
-  line-height: 1.35;
+  font-weight: 700;
+  line-height: 1.5;
   color: var(--text-color);
   background: transparent;
+  text-transform: uppercase;
 }
 
 .tag.primary {
@@ -314,13 +315,13 @@ body.theme-dark .theme-toggle:hover {
 .skill-group-note {
   margin: 0;
   font-size: 7.5pt;
-  line-height: 1.35;
+  line-height: 1.5;
   color: var(--muted-color);
 }
 
 /* EXPERIENCE */
 .exp-block {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .exp-header {
@@ -374,7 +375,7 @@ body.theme-dark .theme-toggle:hover {
   position: relative;
   margin-bottom: 2px;
   font-size: 9pt;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 .exp-list li::before {
@@ -465,7 +466,7 @@ body.theme-dark .theme-toggle:hover {
   font-size: 8.5pt;
   color: var(--muted-color);
   margin-top: 6px;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .lang-heading {
@@ -573,7 +574,6 @@ body.theme-dark .theme-toggle:hover {
   }
 
   .header-links a {
-    border-color: #000000;
     color: #000000 !important;
   }
 
